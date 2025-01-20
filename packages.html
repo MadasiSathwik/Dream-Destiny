@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Travel Packages</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header .logo .orange {
+    color: #f4a100;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+header nav ul li a:hover{
+    background: #ffa500;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+header .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+header .search-bar input {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+header .search-bar button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #f4a100;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.packages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.package-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.package-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.package-card h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.package-card p {
+  font-size: 1em;
+  color: #555;
+  margin: 10px 0;
+}
+
+.rating {
+  font-size: 1.2em;
+  color: #ffa500;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #ffa500;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff7b00;
+}
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content h2 {
+    color: #fcb900;
+}
+
+.footer-content p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+</style>
+</head>
+<body>
+<header>
+        <div class="logo">
+              <img src="logo.png" alt="travel logo" width="100" height="100">
+            <span class="orange">D</span>ream <span class="orange">D</span><span class="none">estiny</span>
+        </div>
+        <nav>
+            <ul>
+               <li><a href="home.html">Home</a></li>
+                <li><a href="book.html">Book</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="aboutus.html">About</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </header>
+<main>
+  <div class="container">
+    <h1 class="title">Packages</h1>
+    <div class="packages">
+      <div class="package-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC095mZ7NIvlYwo3mSTY8MSKGit9_dv4FTbw&s" alt="delhi">
+        <h2>DELHI</h2>
+        <p>Explore the Delhi with comfort and ease. Discover unforgettable experiences, tailored for you!</p>
+        <div class="rating">⭐⭐⭐⭐</div>
+        <div class="price">Price: 35,000</div>
+        <button><a href="book.html">Book Now</a></button>
+      </div>
+      <div class="package-card">
+        <img src="https://www.holidify.com/images/bgImages/GOA.jpg" alt="goa">
+        <h2>GOA</h2>
+        <p>Explore the Goa with comfort and ease. Discover unforgettable experiences, tailored for you!</p>
+        <div class="rating">⭐⭐⭐⭐</div>
+        <div class="price">Price: 25,000</div>
+        <button><a href="book.html">Book Now</a></button>
+      </div>
+      <div class="package-card">
+        <img src="https://www.rajasthanbhumitours.com/blog/wp-content/uploads/2024/08/Places-To-Visit-In-Rajasthan-With-Family.jpg" alt="jaipur">
+        <h2>JAIPUR</h2>
+        <p>Explore the Rajasthan with comfort and ease. Discover unforgettable experiences, tailored for you!</p>
+        <div class="rating">⭐⭐⭐</div>
+        <div class="price">Price: 30,000</div>
+        <button><a href="book.html">Book Now</a></button>
+      </div>
+      <div class="package-card">
+        <img src="https://www.holidify.com/images/bgImages/HYDERABAD.jpg" alt="hyderabad">
+        <h2>HYDERABAD</h2>
+        <p>Explore the Hyderabad with comfort and ease. Discover unforgettable experiences, tailored for you!</p>
+        <div class="rating">⭐⭐⭐⭐</div>
+        <div class="price">Price: 20,000</div>
+        <button><a href="book.html">Book Now</a></button>
+      </div>
+      <div class="package-card">
+        <img src="https://media.easemytrip.com/media/Blog/India/637033873695687971/637033873695687971exGTcR.jpg" alt="kerala">
+        <h2>KERALA</h2>
+        <p>Explore the Kerala with comfort and ease. Discover unforgettable experiences, tailored for you!</p>
+        <div class="rating">⭐⭐⭐⭐⭐</div>
+        <div class="price">Price: 15,000</div>
+        <button><a href="book.html">Book Now</a></button>
+      </div>
+      <div class="package-card">
+        <img src="https://ihplb.b-cdn.net/wp-content/uploads/2017/03/Brihadeeswarar-TempleThanjavur.jpg" alt="tamil">
+        <h2>TAMILNADU</h2>
+        <p>Explore the Tamilnadu with comfort and ease. Discover unforgettable experiences, tailored for you!</p>
+        <div class="rating">⭐⭐⭐⭐⭐</div>
+        <div class="price">Price: 15,000</div>
+        <button><a href="book.html">Book Now</a></button>
+      </div>
+    </div>
+  </div>
+<main>
+<footer>
+        <div class="footer-content">
+            <h2>DreamDestiny</h2>
+            <p>Explore stunning destinations that offer unique experiences tailored to your interests. Discover breathtaking landscapes, vibrant cultures, and adventures that create lasting memories.</p>
+            <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+            <a href="https://pinterest.com" target="_blank" class="social-icon"><i class="fab fa-pinterest"></i></a>
+        </div>
+        <p class="footer-text">
+                Designed by <strong>MADASISATHWIK</strong> | &copy; CopyrightsMadasiSathwik All Rights Reserved
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

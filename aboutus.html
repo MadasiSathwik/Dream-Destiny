@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travel Agency</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header .logo .orange {
+    color: #f4a100;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+header nav ul li a:hover{
+    background: #ffa500;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+header .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+header .search-bar input {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+header .search-bar button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #f4a100;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.about-section {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.travel-image {
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+.text-content {
+    max-width: 50%;
+    text-align: left;
+}
+
+.text-content h2 {
+    color: #fcb900;
+}
+
+.text-content p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.read-more-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fcb900;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more-button:hover {
+    background-color: #e5a700;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content h2 {
+    color: #fcb900;
+}
+
+.footer-content p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+</style>
+</head>
+<body>
+<header>
+        <div class="logo">
+              <img src="logo.png" alt="travel logo" width="100" height="100">
+            <span class="orange">D</span>ream <span class="orange">D</span><span class="none">estiny</span>
+        </div>
+        <nav>
+            <ul>
+               <li><a href="home.html">Home</a></li>
+                <li><a href="book.html">Book</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="aboutus.html">About</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </header>
+    <div class="about-section">
+        <div class="about-content">
+            <img src="https://st2.depositphotos.com/3837271/5507/i/450/depositphotos_55072853-stock-photo-time-to-travel-wooden-sign.jpg" alt="Travel Image" class="travel-image">
+            <div class="text-content">
+                <h2>How Travel Agency Work</h2>
+                <p>Discover remarkable destinations and exceptional experiences that cater to your every desire. Whether you're seeking adventure, relaxation, or cultural immersion, we ensure that your journey is crafted with care and attention to detail. Enjoy personalized services that make every trip unforgettable, and create cherished memories that last a lifetime.</p>
+                <a href="#" class="read-more-button">Read More...</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <h2>DreamDestiny</h2>
+            <p>Explore stunning destinations that offer unique experiences tailored to your interests. Discover breathtaking landscapes, vibrant cultures, and adventures that create lasting memories.</p>
+            <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+            <a href="https://pinterest.com" target="_blank" class="social-icon"><i class="fab fa-pinterest"></i></a>
+        </div>
+        <p class="footer-text">
+                Designed by <strong>MADASISATHWIK</strong> | &copy; CopyrightsMadasiSathwik All Rights Reserved
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gallery</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header .logo .orange {
+    color: #f4a100;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+header nav ul li a:hover{
+    background: #ffa500;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+header .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+header .search-bar input {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+header .search-bar button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #f4a100;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.gallery {
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery-title {
+  font-size: 2.5em;
+  color: #ff9900;
+  margin-bottom: 20px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(0.9);
+}
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content h2 {
+    color: #fcb900;
+}
+
+.footer-content p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+</style>
+</head>
+<body>
+<header>
+        <div class="logo">
+              <img src="logo.png" alt="travel logo" width="100" height="100">
+            <span class="orange">D</span>ream <span class="orange">D</span><span class="none">estiny</span>
+        </div>
+        <nav>
+            <ul>
+               <li><a href="home.html">Home</a></li>
+                <li><a href="book.html">Book</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="aboutus.html">About</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </header>
+  <div class="gallery">
+    <h1 class="gallery-title">Gallary</h1>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/800px-Taj_Mahal_%28Edited%29.jpeg" alt="Pyramids">
+      </div>
+      <div class="gallery-item">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/11/f4/ff/11/charminar.jpg" alt="Cityscape">
+      </div>
+      <div class="gallery-item">
+        <img src="https://www.holidify.com/images/cmsuploads/compressed/BACKWATERS_OF_KUTTANAD_20180317154922.jpg" alt="Dubai">
+      </div>
+      <div class="gallery-item">
+        <img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/09/Chhatrapati-Shivaji-Terminus.jpg" alt="Eiffel Tower">
+      </div>
+      <div class="gallery-item">
+        <img src="https://www.swantour.com/blogs/wp-content/uploads/2018/02/Tourist-Places-in-Bangalore.jpg" alt="Hot Air Balloons">
+      </div>
+      <div class="gallery-item">
+        <img src="https://tourismtn.com/wp-content/uploads/2021/09/Courtallam-1-1024x576.jpg" alt="Istanbul">
+      </div>
+    </div>
+  </div>
+<footer>
+        <div class="footer-content">
+            <h2>DreamDestiny</h2>
+            <p>Explore stunning destinations that offer unique experiences tailored to your interests. Discover breathtaking landscapes, vibrant cultures, and adventures that create lasting memories.</p>
+            <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+            <a href="https://pinterest.com" target="_blank" class="social-icon"><i class="fab fa-pinterest"></i></a>
+        </div>
+        <p class="footer-text">
+                Designed by <strong>MADASISATHWIK</strong> | &copy; CopyrightsMadasiSathwik All Rights Reserved
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

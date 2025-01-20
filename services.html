@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Services Section</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header .logo .orange {
+    color: #f4a100;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+header nav ul li a:hover{
+    background: #ffa500;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+header .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+header .search-bar input {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+header .search-bar button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #f4a100;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.services {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.services h1 {
+  font-size: 2.5rem;
+  color: #ff9900;
+  margin-bottom: 40px;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+}
+
+.service-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.service-card h2 {
+  font-size: 1.2rem;
+  margin: 15px 0;
+  color: #333;
+}
+
+.service-card p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content h2 {
+    color: #fcb900;
+}
+
+.footer-content p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+  </style>
+</head>
+<body>
+<header>
+        <div class="logo">
+              <img src="logo.png" alt="travel logo" width="100" height="100">
+            <span class="orange">D</span>ream <span class="orange">D</span><span class="none">estiny</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="book.html">Book</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="aboutus.html">About</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </header>
+  <section class="services">
+    <h1><span class="orange">S</span>ervices</h1>
+    <div class="services-container">
+      <div class="service-card">
+        <img src="hotel.jpg" alt="Hotel Icon">
+        <h2>Affordable Hotel</h2>
+        <p>Experience unforgettable adventures in breathtaking locations, carefully curated just for you.</p>
+      </div>
+      <div class="service-card">
+        <img src="food.png" alt="Food Icon">
+        <h2>Food & Drinks</h2>
+        <p>Indulge in a culinary adventure that tantalizes your taste buds. Explore diverse cuisines and local delicacies.</p>
+      </div>
+      <div class="service-card">
+        <img src="safty.png" alt="Safety Icon">
+        <h2>Safety Guide</h2>
+        <p>Experience unforgettable adventures in breathtaking locations, carefully curated just for you.</p>
+      </div>
+      <div class="service-card">
+        <img src="world.png" alt="World Icon">
+        <h2>Around The World</h2>
+        <p>Explore beautiful destinations and enjoy exceptional experiences, designed with care just for you.</p>
+      </div>
+      <div class="service-card">
+        <img src="travel.png" alt="Plane Icon">
+        <h2>Fastest Travel</h2>
+        <p>Explore beautiful destinations and enjoy exceptional experiences, designed with care just for you.</p>
+      </div>
+      <div class="service-card">
+        <img src="adventure.png" alt="Adventure Icon">
+        <h2>Adventures</h2>
+        <p>Explore beautiful destinations and enjoy exceptional experiences, designed with care just for you.</p>
+      </div>
+    </div>
+  </section>
+<footer>
+        <div class="footer-content">
+            <h2>DreamDestiny</h2>
+            <p>Explore stunning destinations that offer unique experiences tailored to your interests. Discover breathtaking landscapes, vibrant cultures, and adventures that create lasting memories.</p>
+            <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+            <a href="https://pinterest.com" target="_blank" class="social-icon"><i class="fab fa-pinterest"></i></a>
+        </div>
+        <p class="footer-text">
+                Designed by <strong>MADASISATHWIK</strong> | &copy; CopyrightsMadasiSathwik All Rights Reserved
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
